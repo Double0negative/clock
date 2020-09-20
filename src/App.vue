@@ -70,8 +70,8 @@ export default {
   methods: {
     updateColor() {
       let today = new Date();
-      let hue = this.getHue(today, .65);
-      let hue2 = this.getHue(today, .75);
+      let hue = this.getHue(today, .55);
+      let hue2 = this.getHue(today, .60);
       this.color = `hsla(${hue}, 90%, 35%, 1)`
       this.color2 = `hsla(${hue2}, 90%, 35%, 1)`
 
